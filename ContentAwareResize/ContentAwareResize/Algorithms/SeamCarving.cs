@@ -84,12 +84,12 @@ namespace ContentAwareResize.Algorithms
                 Transpose();
             }
 
-
             MyColor[,] newImageMatrix = new MyColor[newHeight, newWidth];
             int deltaw = ImageMatrix.GetLength(1) - newWidth;
             int deltah = ImageMatrix.GetLength(0) - newHeight;
-            Console.WriteLine(deltaw);
+            
             // O(newWidth * new Height)
+
             for (int i = 0; i < newHeight; i++)
                 for (int j = 0; j < newWidth; j++)
                 {
