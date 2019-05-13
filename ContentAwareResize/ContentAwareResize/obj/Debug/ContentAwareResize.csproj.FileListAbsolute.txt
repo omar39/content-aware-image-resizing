@@ -42,3 +42,17 @@ E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug
 E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.GenerateResource.Cache
 E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.exe
 E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.pdb
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe.config
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.pdb
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csprojResolveAssemblyReference.cache
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.g.cs
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\App.g.cs
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.cache
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.lref
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.baml
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.g.resources
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.Properties.Resources.resources
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.GenerateResource.Cache
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.exe
+E:\Projects\content-aware-image-resizing\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.pdb

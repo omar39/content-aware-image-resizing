@@ -50,10 +50,10 @@ namespace ContentAwareResize
         {
             if (stopWatch.IsRunning)
             {
-                TimeSpan ts = stopWatch.Elapsed;
-                currentTime = String.Format("{0:00}:{1:00}:{2:00}",
-                ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
-                TimeTextBox.Content = "Time: " + currentTime;
+                TimeSpan ts = stopWatch.Elapsed;    // O(1)
+                currentTime = String.Format("{0:00}:{1:00}: {2:00}",   
+                ts.Minutes, ts.Seconds, ts.Milliseconds / 10);  // O(1)
+                TimeTextBox.Content = "Time: " + currentTime;   // O(1)
             }
         }
 
@@ -70,41 +70,47 @@ namespace ContentAwareResize
                 HeightTextBox.Text = ImageOperations.GetHeight(ImageMatrix).ToString();
                 int x = int.Parse(WidthTextBox.Text), y = int.Parse(HeightTextBox.Text);
 
-                SeamCarving.leaveIt = new bool[y, x];
-                for (int i = 0; i < y; i++)
+                SeamCarving.leaveIt = new bool[y, x];   // O(1)
+                // O(y * x)
+                for (int i = 0; i < y; i++) // O(y)
                 {
-                    for (int j = 0; j < x; j++)
+                    for (int j = 0; j < x; j++) // O(x)
                     {
-                        SeamCarving.leaveIt[i, j] = false;
+                        SeamCarving.leaveIt[i, j] = false;  // O(1)
                     }
                 }
 
             }
 
         }
-        int newHeight = 0, newWidth = 0;
-        MyColor[,] resizedImage;
+        int newHeight = 0, newWidth = 0;    // O(1)
+        MyColor[,] resizedImage;    // O(1)
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            try { 
             using (var fbd = new System.Windows.Forms.FolderBrowserDialog())
             {
                 System.Windows.Forms.DialogResult result = fbd.ShowDialog();
 
                 if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
-                    string FilePath = FileNameTextBox.Text;
-                    //MessageBox.Show(FilePath + " " + "test.jpg");
+                    string FilePath = fbd.SelectedPath + FileNameTextBox.Text.ToString();
+                    MessageBox.Show(FilePath);
                     var encoder = new PngBitmapEncoder();
                     encoder.Frames.Add(BitmapFrame.Create((BitmapSource)ImageBox.Source));
                     using (FileStream stream = new FileStream(FilePath, FileMode.Create))
                         encoder.Save(stream);
                 }
             }
+        }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            newWidth = int.Parse(WidthTextBox.Text);
-            newHeight = int.Parse(HeightTextBox.Text);
+            newWidth = int.Parse(WidthTextBox.Text);    // O(1)
+            newHeight = int.Parse(HeightTextBox.Text);  // O(1)
 
             if (TypesComboBox.SelectedIndex == 0)
             {
@@ -160,6 +166,8 @@ namespace ContentAwareResize
 
 
         private Thread mouseThread = null;
+
+        //  As long as the mouse up event is not triggered, the function is working
         private void getPixels(object sender, MouseButtonEventArgs e)
         {
             List<Tuple<int, int>> ways = new List<Tuple<int, int>>();
@@ -191,9 +199,6 @@ namespace ContentAwareResize
                            if (valid(j , i ))
                            {
                                SeamCarving.leaveIt[i,j] = true;
-                               //ImageMatrix[i, j].red = 0;
-                               //ImageMatrix[i, j].blue = 255;
-                               //ImageMatrix[i, j].green = 0;
                            }
                        }
                    }
