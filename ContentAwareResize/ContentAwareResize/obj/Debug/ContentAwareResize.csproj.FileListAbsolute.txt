@@ -1,0 +1,44 @@
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe.config
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.pdb
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csprojResolveAssemblyReference.cache
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.g.cs
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\App.g.cs
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.cache
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.lref
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.baml
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.g.resources
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.Properties.Resources.resources
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.GenerateResource.Cache
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.CoreCompileInputs.cache
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.exe
+C:\Users\zulam\source\repos\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.pdb
+D:\f\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe.config
+D:\f\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe
+D:\f\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.pdb
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csprojAssemblyReference.cache
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.g.cs
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\App.g.cs
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.cache
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.lref
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.baml
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.g.resources
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.Properties.Resources.resources
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.GenerateResource.cache
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.CoreCompileInputs.cache
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.exe
+D:\f\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.pdb
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe.config
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.exe
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\bin\Debug\ContentAwareResize.pdb
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csprojResolveAssemblyReference.cache
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.g.cs
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\App.g.cs
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.cache
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize_MarkupCompile.lref
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\MainWindow.baml
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.g.resources
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.Properties.Resources.resources
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.csproj.GenerateResource.Cache
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.exe
+E:\College\College y2\Algorithms\ContentAwareResize\ContentAwareResize\obj\Debug\ContentAwareResize.pdb
