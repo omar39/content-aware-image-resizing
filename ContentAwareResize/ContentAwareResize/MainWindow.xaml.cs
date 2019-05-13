@@ -94,12 +94,13 @@ namespace ContentAwareResize
 
                 if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
-                    string FilePath = fbd.SelectedPath + FileNameTextBox.Text.ToString();
+                    string FilePath = fbd.SelectedPath + "\\" + FileNameTextBox.Text.TrimEnd();
                     MessageBox.Show(FilePath);
-                    var encoder = new PngBitmapEncoder();
+                    FileStream stream = new FileStream(FilePath, FileMode.Create);
+                    JpegBitmapEncoder encoder = new JpegBitmapEncoder();
                     encoder.Frames.Add(BitmapFrame.Create((BitmapSource)ImageBox.Source));
-                    using (FileStream stream = new FileStream(FilePath, FileMode.Create))
-                        encoder.Save(stream);
+                    encoder.Save(stream);
+                    stream.Close();
                 }
             }
         }catch(Exception ex)
